@@ -16,8 +16,6 @@ spec:
     spec:
       containers:
       - name: k8s-backend
-        image: phiroict/k8s-test-backend@sha256:1ed0680eab0fd16c156329901015ad323ea184ee406c02061b97052487957e09
+        image: phiroict/k8s-test-backend@sha256:01685bf2a9454eaa6b2e1be9d89d46fade98a2cf47c43d35b9231b27e0948e33
         ports:
         - containerPort: 4000
-
-
