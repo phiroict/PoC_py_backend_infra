@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-backend
+  labels:
+    app: k8s-backend
+spec:
+  containers:
+  - name: k8s-backend
+    env:
+    - name: ENV_SET
+      value: 'prod'
