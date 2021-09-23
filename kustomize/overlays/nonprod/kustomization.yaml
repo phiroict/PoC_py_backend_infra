@@ -5,3 +5,6 @@ bases:
 
 resources:
 - 00-namespace.yaml
+
+patchesStrategicMerge:
+- 01-deployment-backend.yaml
