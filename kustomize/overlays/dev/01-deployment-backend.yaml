@@ -5,8 +5,10 @@ metadata:
   labels:
     app: k8s-backend
 spec:
-  containers:
-  - name: k8s-backend
-    env:
-    - name: ENV_SET
-      value: 'dev'
+  template:
+      spec:
+          containers:
+          - name: k8s-backend
+            env:
+            - name: ENV_SET
+              value: 'dev'
