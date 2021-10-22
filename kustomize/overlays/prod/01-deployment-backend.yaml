@@ -7,10 +7,10 @@ metadata:
 spec:
   replicas: 10
   template:
-      spec:
-          containers:
-          - name: k8s-backend
-            image: phiroict/k8s-test-backend@sha256:01685bf2a9454eaa6b2e1be9d89d46fade98a2cf47c43d35b9231b27e0948e33
-            env:
-            - name: ENV_SET
-              value: 'prod'
+    spec:
+      containers:
+      - name: k8s-backend
+        image: phiroict/k8s-test-backend@sha256:0f55f74f5e0e76bec722e6c88048f601cb6b4fd432b86e48520b7c84880c4cc1
+        env:
+        - name: ENV_SET
+          value: prod
