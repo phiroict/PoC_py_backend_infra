@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: k8s-backend
-        image: phiroict/k8s-test-backend@sha256:57c13b315cb50d1f841addf1ea388f184886c2a35b9100428dad5668267eb633
+        image: phiroict/k8s-test-backend@sha256:3938c19ed82fc9890747ce4646aadc6f1bc839e4728912789f2454b071c7baf4
         env:
         - name: ENV_SET
           value: dev
